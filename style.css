@@ -1,0 +1,161 @@
+* {
+    margin: O;
+    padding: O;
+    box-sizing: O;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image: url(./Assets/planodefundo3.png);
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 20px O;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: O auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 200px;
+    width: 300px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.menu ul li a:hover {
+    color: #3498db;
+}
+
+.titulo {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #c7c7c7;
+}
+
+.titulo h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.texto {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fffefe;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.imagens {
+    text-align: center;
+    padding: 10px;
+    background-color: #fffefe;
+}
+
+.imagens h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria img {
+    width: 900px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.videos {
+    text-align: center;
+    padding: 20px;
+    background-color: #fffefe;
+}
+
+.videos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    max-width: 1200px;
+    margin: O auto;
+    border-radius: 20px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 450px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 2000px O;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: O auto;
+}
+
+.redes-sociais a {
+    color: #fefefe;
+    text-decoration: none;
+    margin: O 10px;
+}
+
+.redes-sociais a:hover {
+    color: #3498db;
+}
+
+@media(max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu ul li {
+        margin: 10px O;
+    }
+
+    galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-container iframe {
+        height: 300px;
+    }
+}
